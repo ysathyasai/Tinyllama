@@ -1,0 +1,38 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore Python-related files (if applicable)
+__pycache__/
+*.py[cod]
+
+# Ignore Termux-related files
+*.deb
+*.apk
+
+# Ignore user-specific or sensitive files
+.env
+*.key
+*.pem
+
+# Ignore large files or models
+*.tar.gz
+*.zip
+*.bin
+*.ckpt
+*.onnx
+
+# Ignore editor/IDE configurations
+.vscode/
+.idea/
+*.swp
+
+# Ignore build artifacts
+dist/
+build/
+*.o
+*.out
